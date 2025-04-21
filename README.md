@@ -83,6 +83,8 @@ PCA doesn’t know what class your data belongs to — LDA does.
 
 ## 💾 How to Compile & Run (Pure C)
 
+Before running the files , remove all files from each dedicated folder and place inside a single folder , then execute the command .
+
 ```bash
 gcc -o lda.exe main.c lda.c matrix.c lda_eigen.c lda_2d.c pure_math.c -lm
 ./lda.exe
